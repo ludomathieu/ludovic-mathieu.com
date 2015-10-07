@@ -1,1 +1,100 @@
-/* COUCOU */
+/* Regular */
+@font-face {
+    font-family: 'Open Sans';
+
+    src: url('./fonts/OpenSans-Regular-webfont.eot');
+    src: url('./fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('./fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('./fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Light */
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('./fonts/OpenSans-Light-webfont.eot');
+    src: url('./fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/OpenSans-Light-webfont.woff') format('woff'),
+    url('./fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+    url('./fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+body{
+    background:#222;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.frame{
+    min-height: 700px;
+    position: relative;
+}
+
+.frame-wide{
+    width:100%;
+    height:100vh;
+}
+
+/* === FRAME MAIN */
+
+#frame__main .frame__main_photocontainer{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left:calc(50% - (100px));
+}
+
+
+.frame__main_photo{
+    border: #fff 2px solid;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+#frame__main .frame__main_title{
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
+    font-family: 'Open Sans Light', Arial, sans-serif;
+}
+
+.frame__main_title h1{
+    font-size: 30px;
+}
+
+.frame__main_title p{
+    font-size: 20px;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.frame__main_title-network{
+    margin-top:30px;
+}
+
+.frame__main_title-network svg{
+    margin:0 10px;
+}
+
+.frame__main_title-network a:first-child svg{
+    margin:6px 10px 0 0;
+}
+
+/* === FRAME C+ */
+
+#frame__canal{
+    background: #fff;
+}
